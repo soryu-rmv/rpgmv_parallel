@@ -61,7 +61,8 @@ RPGツクールシリーズのイベントのトリガー（開始条件）に�
 
 ### 2.1. 指定位置に到達
 
-![37](https://user-images.githubusercontent.com/64351233/80945503-e92a8200-8e26-11ea-9af7-0839126b466f.png)
+![37](https://user-images.githubusercontent.com/64351233/80946458-0fe9b800-8e29-11ea-8bc1-662db91a2caa.png)
+
 
 
 
