@@ -93,8 +93,7 @@ RPGツクールシリーズのイベントのトリガー（開始条件）に�
 X座標,Y座標も取得できるため、変数をうまく用いれば、    
 「任意のイベントの半径Nセル以内」に入ったらも
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=r=\sqrt{(x_p-x_e)^2&plus;(y_p-y_e)^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r=\sqrt{(x_p-x_e)^2&plus;(y_p-y_e)^2}" title="r=\sqrt{(x_p-x_e)^2+(y_p-y_e)^2}" /></a>
-
+<img src="https://latex.codecogs.com/gif.latex?r=\sqrt{(x_p-x_e)^2&plus;(y_p-y_e)^2}" title="r=\sqrt{(x_p-x_e)^2+(y_p-y_e)^2}" />
 
 ### 2.2. 任意のボタンを押す
 
