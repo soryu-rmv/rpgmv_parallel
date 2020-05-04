@@ -77,13 +77,23 @@ RPGツクールシリーズのイベントのトリガー（開始条件）に�
 並列処理で位置情報を監視した方がエディタで保存・読み込みするデータ量を減らすことができる。   
 (この例では、マップ構造がその地点に来るまでx>38、つまり左下の方から上がってくるようになっていることが前提)       
 
-
-
 ![37-2](https://user-images.githubusercontent.com/64351233/80946672-85ee1f00-8e29-11ea-921b-28a346c232a1.png)
 
 
+<br><br><br>
 
 
+類似な例として、以下のようなイベントの書き方（条件の判定）を行うと   
+「(25,20)から半径6セル以内にプレイヤーが進入したら」という円形範囲の位置判定を行うことができる。
+
+![rad](https://user-images.githubusercontent.com/64351233/80948978-1595cc80-8e2e-11ea-8d04-8bf27d02b311.png)
+
+
+「変数の操作」より「ゲームデータ」、「キャラクター」でプレイヤー以外の任意のキャラクターの   
+X座標,Y座標も取得できるため、変数をうまく用いれば、    
+「任意のイベントの半径Nセル以内」に入ったらも
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=r=\sqrt{(x_p-x_e)^2&plus;(y_p-y_e)^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r=\sqrt{(x_p-x_e)^2&plus;(y_p-y_e)^2}" title="r=\sqrt{(x_p-x_e)^2+(y_p-y_e)^2}" /></a>
 
 
 ### 2.2. 任意のボタンを押す
