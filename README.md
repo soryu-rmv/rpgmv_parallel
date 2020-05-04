@@ -27,6 +27,17 @@ RPGツクールシリーズのイベントのトリガー（開始条件）に�
 
 ## 2. 並列処理イベントによるプレイヤー監視
 
+![p_eve1](https://user-images.githubusercontent.com/64351233/80929176-c7a8a680-8de4-11ea-90f9-b15a6b18f1a5.png)
+
+![p_eve2](https://user-images.githubusercontent.com/64351233/80929177-c9726a00-8de4-11ea-800b-c90b924e85f7.png)
+
+
+![paral_obs](https://user-images.githubusercontent.com/64351233/80929347-24589100-8de6-11ea-9743-8df544fdce04.gif)
+
+ここでは説明のため、KMS_DebugUtil.js [（LINK）](http://ytomy.sakura.ne.jp/tkool/rpgtech/tech_mv/develop/debug_util.html) を使用して    
+左上にプレイヤー座標を常に表示している。   
+
+
 ### 2.1. 指定位置に到達
 
 
